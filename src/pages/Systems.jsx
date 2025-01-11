@@ -95,17 +95,18 @@ const Systems = () => {
               Equipment Installation
             </h2>
             <p className="text-gray-700 mb-4">
-              Recreational Surfacing INC specializes in the professional installation of equipment for playgrounds, fitness areas, and recreational spaces. Our team ensures the proper and safe setup of all equipment to meet industry standards and provide a secure environment for users of all ages.
+              Recreational Surfacing Inc. specializes in the professional installation of equipment for playgrounds, fitness areas, and indoor/outdoor recreational spaces. Our team ensures the proper and safe setup of all equipment and high-quality surfacing to meet industry standards and provide a secure environment for users of all ages.
             </p>
             <ul className="list-disc list-inside text-gray-700 mb-4">
               <li>Professional installation by experienced technicians</li>
-              <li>Compliance with safety standards and regulations</li>
-              <li>Customizable setups for unique spaces</li>
+              <li>Compliant with safety standards and regulations</li>
+              <li>ADA (American Disability Association) compliant</li>
+              <li>Customizable designs for unique spaces</li>
               <li>End-to-end service, from design to installation</li>
             </ul>
             <h3 className="text-lg font-bold text-blue-900 mb-4">Gallery</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              <img src="/img/equi1.jpg" alt="Equipment Installation 1" className="rounded-lg shadow-lg" />
+              <img src="/img/equi1.webp" alt="Equipment Installation 1" className="rounded-lg shadow-lg" />
               <img src="/img/equi2.jpg" alt="Equipment Installation 2" className="rounded-lg shadow-lg" />
               <img src="/img/equi3.jpg" alt="Equipment Installation 3" className="rounded-lg shadow-lg" />
               <img src="/img/equi4.jpg" alt="Equipment Installation 4" className="rounded-lg shadow-lg" />
@@ -129,8 +130,7 @@ const Systems = () => {
               Safety Playground Surfacing
             </h1>
             <p className="text-gray-700 mb-4">
-              One of the most important things that you can do when designing
-              your playground is to provide safety surfacing. While proper safety surfacing will not prevent all injuries, it will greatly reduce the likelihood of life-threatening head injuries.
+              One of the most important things that you can do when designing your playground is to provide safety surfacing. While proper safety surfacing will not prevent all injuries, it will greatly reduce the likelihood of life-threatening head injuries.
             </p>
           </div>
           <div className="lg:w-1/2 text-center">
@@ -198,3 +198,4 @@ const Systems = () => {
 };
 
 export default Systems;
+X

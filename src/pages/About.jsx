@@ -7,10 +7,10 @@ const About = () => {
     <div>
       <Navbar />
 
-     
+    
       <section className="bg-gray-50 py-20 mt-24">
-        <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center">
-          <div className="lg:w-1/2 mb-8 lg:mb-0">
+        <div className="container mx-auto px-6 flex flex-col lg:flex-row lg:space-x-12 items-center">
+          <div className="lg:w-1/2 mb-12 lg:mb-0">
             <h1 className="text-4xl font-bold text-orange-600 mb-4">
               Recreational Surfacing INC: Redefining Safe and Fun Playgrounds
             </h1>
@@ -21,24 +21,27 @@ const About = () => {
               Our commitment to safety is paramount, and we achieve this by utilizing a blend of pre-consumer and post-consumer reclaimed material components. As industry innovators, we take pride in crafting surfaces that not only provide a cushioned and secure play area but also contribute to environmental sustainability.
             </p>
           </div>
-          <img
-            src="/img/img.jpg"
-            alt="Playground Safety"
-            className="rounded-lg shadow-lg w-full lg:w-1/2 ml-10"
-          />
+          <div className="lg:w-1/2 flex justify-center">
+            <img
+              src="/img/img.jpg"
+              alt="Playground Safety"
+              className="rounded-lg shadow-lg w-4/5 lg:w-full"
+            />
+          </div>
         </div>
       </section>
 
-  
+      
       <section className="bg-white py-20">
-        <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center">
-          <img
-            src="/img/core.png"
-            alt="Core Values"
-            className="rounded-lg shadow-lg w-full lg:w-1/2 mb-8 lg:mb-0"
-          />
+        <div className="container mx-auto px-6 flex flex-col lg:flex-row lg:space-x-12 items-center">
+          <div className="lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+            <img
+              src="/img/core.png"
+              alt="Core Values"
+              className="rounded-lg shadow-lg w-4/5 lg:w-full"
+            />
+          </div>
           <div className="lg:w-1/2 lg:pl-10">
-          
             <ul className="list-disc list-inside text-lg text-gray-700 space-y-4">
               <li>
                 <strong>Safety Paramount:</strong> Quality materials, rigorous standards, accessibility for all users.
@@ -86,7 +89,7 @@ const About = () => {
         </div>
       </section>
 
- 
+      
       <section className="bg-white py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-orange-600 mb-6">
